@@ -23,17 +23,17 @@ Pod::Spec.new do |s|
                    A longer description of HTToast in Markdown format.
                    DESC
 
-  s.homepage     = "https://g.hz.netease.com/HTIOSUI/HTToast"
+  s.homepage     = "https://github.com/NEYouFan/HTToast-iOS.git"
 
 
   s.license      = "MIT"
 
-  s.author             = { "c-xiaoqiang" => "cxq901123@163.com" }
+  s.author             = { "netease" => "taozeyu890217@126.com" }
 
   s.platform     = :ios, "7.0"
 
 
-  s.source       = { :git => "https://g.hz.netease.com/HTIOSUI/HTToast.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/NEYouFan/HTToast-iOS.git", :tag => s.version.to_s }
 
   s.source_files  = "HTToast/*.{h,m}"
 
