@@ -16,11 +16,11 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HTToast"
-  s.version      = "0.0.1"
-  s.summary      = "A short description of HTToast."
+  s.version      = "0.0.2"
+  s.summary      = "standard Toast by Netease HeartTouch Group"
 
   s.description  = <<-DESC
-                   A longer description of HTToast in Markdown format.
+                   HeartTouch标准化组件之Toast
                    DESC
 
   s.homepage     = "https://github.com/NEYouFan/HTToast-iOS.git"
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.license      = "MIT"
 
-  s.author             = { "netease" => "taozeyu890217@126.com" }
+  s.author       = { "netease" => "taozeyu890217@126.com" }
 
   s.platform     = :ios, "7.0"
 
