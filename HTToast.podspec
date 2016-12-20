@@ -16,14 +16,14 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HTToast"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "standard Toast by Netease HeartTouch Group"
 
   s.description  = <<-DESC
                    HeartTouch标准化组件之Toast
                    DESC
 
-  s.homepage     = "https://github.com/NEYouFan/HTToast-iOS.git"
+  s.homepage     = "https://github.com/NEYouFan/ht-toast-ios"
 
 
   s.license      = "MIT"
@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "7.0"
 
 
-  s.source       = { :git => "https://github.com/NEYouFan/HTToast-iOS.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/NEYouFan/ht-toast-ios.git", :tag => s.version.to_s }
 
   s.source_files  = "HTToast/*.{h,m}"
 
